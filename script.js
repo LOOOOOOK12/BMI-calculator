@@ -34,10 +34,10 @@ clear.addEventListener("click", x =>{
 
 //USING ARROW FUNCTION TRY LANGS
 
-// let weight = window.prompt("Enter your weight:");
-// let height = window.prompt("Enter your height:");
+let weight = window.prompt("Enter your weight:");
+let height = window.prompt("Enter your height:");
 
-// const BMI = (weight,height) => weight/(Math.pow(height,2));
+const BMI = (weight,height) => weight/(Math.pow(height,2));
 
-// console.log (`Your BMI is: ${BMI(weight,height)}`);
+console.log (`Your BMI is: ${BMI(weight,height)}`);
 
